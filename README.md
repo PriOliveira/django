@@ -27,3 +27,9 @@ Create super user:
 ```bash
 python manage.py createsuperuser
 ```
+
+Statics:
+```bash
+python manage.py collectstatic
+```
+
