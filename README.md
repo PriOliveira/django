@@ -18,7 +18,12 @@ python manage.py startapp <APP_NAME>
 ```
 
 Update models
-```
+```bash
 python manage.py makemigrations <APP_NAME>
 python manage.py migrate <APP_NAME>
+```
+
+Create super user:
+```bash
+python manage.py createsuperuser
 ```
