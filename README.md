@@ -11,3 +11,14 @@ Then, run the server:
 ```bash
 python manage.py runserver
 ```
+
+Create app
+```bash
+python manage.py startapp <APP_NAME>
+```
+
+Update models
+```
+python manage.py makemigrations <APP_NAME>
+python manage.py migrate <APP_NAME>
+```
